@@ -23,6 +23,9 @@ android {
     defaultConfig {
         minSdkVersion 19
     }
+    listOptions {
+        abortOnError false
+    }
 
     libraryVariants.all {
         it.getGenerateBuildConfigProvider().configure { it.enabled = false }

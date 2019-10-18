@@ -17,6 +17,12 @@
 apply plugin: 'java-library'
 apply plugin: 'kotlin'
 
+android {
+    lintOptions {
+        abortOnError false
+    }
+}
+
 dependencies {
     api 'org.twitter4j:twitter4j-core:4.0.7'
     api 'org.twitter4j:twitter4j-http2-support:4.0.7'
