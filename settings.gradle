@@ -17,6 +17,7 @@
 include ':app', ':component_client_base', ':component_html_parse', ':component_client_twitter', ':component_client_mastodon'
 include ':alternative_twitter4j', ':alternative_glide'
 
+/***
 include ':mastodon4j'
 project(':mastodon4j').projectDir = new File('mastodon4j/mastodon4j')
 
@@ -26,3 +27,4 @@ project(':japng:api').projectDir = new File('japng-android/japng/api')
 
 include ':twitter-text'
 project(':twitter-text').projectDir = new File('twitter-text/java')
+***/
