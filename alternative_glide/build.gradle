@@ -23,7 +23,7 @@ android {
     defaultConfig {
         minSdkVersion 19
     }
-    listOptions {
+    lintOptions {
         abortOnError false
     }
 
